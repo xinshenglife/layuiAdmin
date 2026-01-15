@@ -11,3 +11,4 @@
 注意 {{- d.field }}  - 要靠近双引号 否则有时候不生效
 2.  table 的 escape 属性 默认开启  导致  表格中  有html标签  会被转义  导致显示错误
 3. 主要在layout.html 中{{d.field }}修改{{- d.field }}  主要是还有引号  - 保持原样输出  不加引号会xss过滤
+4. 2.6的时候所有css和js的合并到一起了. css除了layim 其他的都在 layui.css
